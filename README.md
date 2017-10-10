@@ -1,6 +1,7 @@
 # MyBatis_Springboot_Integration
 SpringBoot与Mybatis的整合实例，无xml文件，纯注解配置，可以作为开发初始模板。
 mapper配置代码：
+
     public interface UserMapper {
     @Select("SELECT * FROM user")
     @Results({
